@@ -31,7 +31,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/QiFeng/dsh-whale-market.git"
+    "url": "git+https://github.com/hoangdtdoothanh-svg/dsh-whale-market.git"
   },
   "peerDependencies": {
     "react": "^18.0.0"
