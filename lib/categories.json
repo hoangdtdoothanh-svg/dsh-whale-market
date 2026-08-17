@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "description": "插件分类规则：按 name + description + topics 正则匹配，顺序优先，未命中归入 misc。",
+  "categories": [
+    {
+      "id": "skin",
+      "label": "皮肤",
+      "match": [
+        "skin",
+        "皮肤",
+        "主题",
+        "theme"
+      ]
+    },
+    {
+      "id": "memory",
+      "label": "记忆",
+      "match": [
+        "memory",
+        "记忆",
+        "hindsight",
+        "knowledge",
+        "graph"
+      ]
+    },
+    {
+      "id": "skill",
+      "label": "技能",
+      "match": [
+        "skill",
+        "技能",
+        "prompt"
+      ]
+    },
+    {
+      "id": "agent",
+      "label": "Agent",
+      "match": [
+        "agent",
+        "teams",
+        "团队",
+        "subagent",
+        "multi-agent",
+        "多智能体"
+      ]
+    },
+    {
+      "id": "tool",
+      "label": "工具",
+      "match": [
+        "tool",
+        "工具",
+        "mcp",
+        "utility"
+      ]
+    },
+    {
+      "id": "workflow",
+      "label": "工作流",
+      "match": [
+        "workflow",
+        "工作流",
+        "pipeline",
+        "编排"
+      ]
+    },
+    {
+      "id": "ui",
+      "label": "界面",
+      "match": [
+        "ui",
+        "界面",
+        "侧边栏",
+        "sidebar",
+        "layout",
+        "布局",
+        "panel",
+        "面板"
+      ]
+    },
+    {
+      "id": "browser",
+      "label": "浏览器",
+      "match": [
+        "browser",
+        "浏览器",
+        "chrome"
+      ]
+    },
+    {
+      "id": "media",
+      "label": "多媒体",
+      "match": [
+        "image",
+        "图片",
+        "video",
+        "视频",
+        "audio",
+        "音乐",
+        "music",
+        "截图",
+        "screen"
+      ]
+    },
+    {
+      "id": "data",
+      "label": "数据",
+      "match": [
+        "excel",
+        "表格",
+        "pdf",
+        "doc",
+        "data",
+        "数据",
+        "csv",
+        "数据库"
+      ]
+    },
+    {
+      "id": "dev",
+      "label": "开发",
+      "match": [
+        "code",
+        "编程",
+        "lint",
+        "typescript",
+        "cli"
+      ]
+    },
+    {
+      "id": "preset",
+      "label": "预设",
+      "match": [
+        "preset",
+        "预设",
+        "profile"
+      ]
+    },
+    {
+      "id": "misc",
+      "label": "其他",
+      "match": []
+    }
+  ]
+}
