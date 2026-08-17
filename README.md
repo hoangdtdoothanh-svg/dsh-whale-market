@@ -3,7 +3,7 @@
 浏览、搜索、一键安装与更新 GitHub dsh-plugin 主题下的 DSH 社区插件。
 运行在 **DeepSeek Harness**（DSH / whale fork）的 Web 设置页里，同时给 Agent 提供四个市场工具。
 
-## 功能总览（v0.2+：ROADMAP P0/P1/P2 全部落地）
+## 功能总览
 
 ### 市场核心
 - **实时市场**：GitHub Search API 拉取 topic:dsh-plugin（4700+ 仓库）与 topic:agent-skills（15000+ 技能），按 star 排序、分页、关键词搜索。
