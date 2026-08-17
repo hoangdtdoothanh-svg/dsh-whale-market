@@ -1,0 +1,23 @@
+# dsh-whale-market bundle patch — mounts the Whale Market plugin into a dsh
+# host composition (any profile: desktop / web / tui …).
+#
+# Host half:  /plugins/dsh-whale-market/* HTTP surface (list / info / install /
+#             installed / set-enabled / update / uninstall) + Agent tools
+#             market_search / market_install / market_installed / market_update.
+# Browser half: 「插件市场」and「已安装」tabs in the Plugins settings section
+#             (settings.plugins.tab).
+#
+# Install (npm name, GitHub URL, or a local path — profile auto-detected by
+# the plugin itself, it installs new plugins into the profile it is mounted in):
+#   dsh plugin --profile <name> add dsh-whale-market
+# or mount a row by hand in any user patch layer:
+#   - insert:
+#       - id: whale-market
+#         name: dsh-whale-market
+#         config:
+#           profile: ''          # override auto-detected profile (optional)
+#           cli: ''              # override CLI binary, default tries dsh then whale
+- insert:
+    - id: whale-market
+      name: dsh-whale-market
+      config: {}
